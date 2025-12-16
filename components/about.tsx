@@ -20,7 +20,7 @@ export default function About() {
       <SectionHeading>Tentang Saya</SectionHeading>
       <p className="mb-3">
         Saya lulusan SMKN 7 Kab.Tangerang Jurusan{" "}
-        <span className="font-medium">Akomodasi Perhotelan</span>, Saya memiliki minat terhadap dunia programing. Dan aktif mengikuti webinar dan bootcamp{" "}
+        <span className="font-medium">Akomodasi Perhotelan</span>, Saya memiliki minat terhadap dunia programing dan jaringan. Dan aktif mengikuti webinar dan bootcamp{" "}
         <span className="font-medium">Front-End Development</span>.{" "}
         <span className="italic">Bagian yang menjadi favorit saya yaitu</span> pada bagian problem solving sebuah Skill saya berfokus pada
         {" "}

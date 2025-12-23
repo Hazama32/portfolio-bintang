@@ -10,11 +10,11 @@ const NotFound = () => {
         ERROR 404
       </h1>
       <h2 className="text-xl md:text-2xl font-semibold mt-4 mb-3 text-center text-red-400">
-        // Halaman ini tidak dapat ditemukan karena URL yang dimasukkan salah.
+        Halaman ini tidak dapat ditemukan karena URL yang dimasukkan salah.
       </h2>
       
       <p className="text-base text-gray-400 mb-10 text-center max-w-lg">
-        Alamat yang kamu akses tidak terdaftar dalam sistem *routing* kami. Coba periksa kembali URL atau klik tombol di bawah untuk kembali ke direktori utama.
+        Alamat yang kamu akses tidak terdaftar dalam sistem <em>routing</em> kami. Coba periksa kembali URL atau klik tombol di bawah untuk kembali ke direktori utama.
       </p>
       
       <Link href="/" passHref>
@@ -23,7 +23,6 @@ const NotFound = () => {
           $ cd /home
         </button>
       </Link>
-      
     </div>
   );
 };
